@@ -1,0 +1,33 @@
+R----8
+     L----5
+     |    L----1
+     |    R----7
+     R----10
+          R----12
+Searching 7: Found
+LCA of 1 and 7: 5
+Inorder: 
+10 20 30 
+
+Inorder: 
+35 40 60 
+Merged tree:            R----60(RED)
+       R----40(BLACK)
+   R----35(RED)
+       L----30(BLACK)
+Root 20(BLACK)
+   L----10(BLACK)
+Inorder: 
+10 20 30 35 40 60 
+           R----60(RED)
+       R----40(BLACK)
+   R----35(RED)
+       L----30(BLACK)
+Root 20(BLACK)
+   L----10(BLACK)
+Left tree: 
+Inorder: 
+10 
+Right tree: 
+Inorder: 
+20 25 30 35 40 50 
